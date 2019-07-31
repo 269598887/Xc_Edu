@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  **/
 @SpringBootApplication
 public class TestRabbitmqApplication {
+    //引导类
     public static void main(String[] args) {
         SpringApplication.run(TestRabbitmqApplication.class,args);
     }
