@@ -7,5 +7,5 @@ public interface PageService {
     //页面查询的方法
     public QueryResponseResult findList(int page, int size, QueryPageRequest queryPageRequest);
 
-
+    //
 }
