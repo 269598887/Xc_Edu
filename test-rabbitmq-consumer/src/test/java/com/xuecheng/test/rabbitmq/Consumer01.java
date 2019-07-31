@@ -7,9 +7,7 @@ import java.util.concurrent.TimeoutException;
 
 /**
  * 入门程序消费者
- * @author Administrator
- * @version 1.0
- * @create 2018-06-17 9:25
+
  **/
 public class Consumer01 {
 

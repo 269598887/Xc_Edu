@@ -9,9 +9,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
 /**
- * @author Administrator
- * @version 1.0
- * @create 2018-06-17 18:10
+
  **/
 public class Producer02_publish {
     //队列名称

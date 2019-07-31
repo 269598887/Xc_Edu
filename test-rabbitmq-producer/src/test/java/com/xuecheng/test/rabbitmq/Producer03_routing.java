@@ -8,11 +8,7 @@ import com.rabbitmq.client.ConnectionFactory;
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
-/**
- * @author Administrator
- * @version 1.0
- * @create 2018-06-17 19:23
- **/
+
 public class Producer03_routing {
     //队列名称
     private static final String QUEUE_INFORM_EMAIL = "queue_inform_email";

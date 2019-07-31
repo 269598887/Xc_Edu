@@ -12,11 +12,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author Administrator
- * @version 1.0
- * @create 2018-06-17 19:23
- **/
+
 @SpringBootTest
 @RunWith(SpringRunner.class)
 public class Producer05_topics_springboot {

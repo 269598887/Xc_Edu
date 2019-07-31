@@ -6,11 +6,7 @@ import org.springframework.amqp.core.Message;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 
-/**
- * @author Administrator
- * @version 1.0
- * @create 2018-06-17 21:21
- **/
+
 @Component
 public class ReceiveHandler {
 
