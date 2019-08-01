@@ -9,10 +9,7 @@ import com.xuecheng.framework.model.response.QueryResponseResult;
 import com.xuecheng.framework.model.response.QueryResult;
 import com.xuecheng.manage_cms.Interface.PageService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,8 +37,10 @@ public class CmsPageController implements CmsPageControllerApi {
         return pageService.findList(page,size,queryPageRequest);
     }
 
+    //添加页面
     @Override
-    public CmsPageResult add(CmsPage cmsPage) {
-        return null;
+    @PostMapping("/add")
+    public CmsPageResult add(@RequestBody CmsPage cmsPage) {
+        return pageService.add(cmsPage);
     }
 }
